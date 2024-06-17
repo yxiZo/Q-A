@@ -27,5 +27,8 @@ ssh -T -p 443 git@ssh.github.com // success
 git clone git@ssh.github.com:443:yxiZo/python_tutorial.git // success
 ```
 
+根据github 文档, 配置后续 config, 方便使用
+
+
 文档整理: 
   [using-ssh-over-the-https-port](https://docs.github.com/zh/authentication/troubleshooting-ssh/using-ssh-over-the-https-port)
