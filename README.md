@@ -32,3 +32,25 @@ git clone git@ssh.github.com:443:yxiZo/python_tutorial.git // success
 
 文档整理: 
   [using-ssh-over-the-https-port](https://docs.github.com/zh/authentication/troubleshooting-ssh/using-ssh-over-the-https-port)
+
+
+2. 关于符号链接
+
+问题来源于 vscode 的 `code .` 的快速命令行指令, 可以快速的打开vscode编辑器并载入当前文件路径的内容, 是个人经常使用的命令
+下载 cursor 后, 似乎与 vscode 的命令有所冲突, 导致其失效并报出以下错误
+```bash
+$ code .
+Unable to determine app path from symlink : /c/Users/xxx/AppData/Local/Programs/cursor/resources/app/bin/code
+```
+
+因此来过一下 关于 symlink 的相关知识, 并解决这个问题
+
+文档整理: 
+   []()
+
+
+
+
+
+
+
